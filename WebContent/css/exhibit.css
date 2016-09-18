@@ -1,0 +1,50 @@
+ @CHARSET "UTF-8";
+ 
+ body{
+	margin:0px;
+	text-align:center;
+	background-color:#fffeca;
+}
+ 
+#main{
+width: 1500px;
+height: 750px;
+color:#FFFFAA;
+margin:auto;
+}
+
+.return{
+  line-height:40px;
+  height:40px;
+  width:115px;
+  color:#000000;
+  background-color:#fbfdfd;
+  font-size:23px;
+  font-weight:900;
+  font-family:SimSun;
+  border:0px solid #566963;
+  -webkit-border-top-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  border-top-left-radius:3px;
+  -webkit-border-top-right-radius:3px;
+  -moz-border-radius-topright:3px;
+  border-top-right-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-bottom-left-radius:3px;
+  -webkit-border-bottom-right-radius:3px;
+  -moz-border-radius-bottomright:3px;
+  border-bottom-right-radius:3px;
+  -moz-box-shadow: inset 0px 0px 15px 1px #eaeab7;
+  -webkit-box-shadow: inset 0px 0px 15px 1px #eaeab7;
+  box-shadow: inset 0px 0px 15px 1px #eaeab7;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+.return:hover{
+  background-color:#b0f4b2;
+}

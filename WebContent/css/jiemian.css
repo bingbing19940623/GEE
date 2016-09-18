@@ -1,0 +1,252 @@
+ @CHARSET "UTF-8";
+
+body{
+	margin:0px;
+	color:#575757;
+}
+
+*{margin:0px;padding:0px;}
+
+.background{
+background-color:#575757;
+position:absolute;
+width:100%;
+height:100%;
+}
+.balllevel{
+position:absolute;
+top:0px;
+left:0px;
+width:0px;
+height:0px;
+}
+#linelevel{
+position:absolute;
+width:100%;
+height:100%;
+}
+.crossmenu{
+position:absolute;
+top:0px;
+left:0px;
+right:0px;
+height:120px;
+background:url(../image/purple.jpg); 
+background-size:100% 100%; 
+border-radius:3px;
+border-top:1px solid #000;
+border-left:1px solid #000;
+box-shadow:-3px 3px 6px #000;
+text-align:center;
+
+}
+
+.verticalmenu{
+
+position:absolute;
+top:124px;
+bottom:0px;
+left:0px;
+width:100px;
+background:url(../image/grey.jpg);
+background-size:100% 100%; 
+border-radius:2px;
+border-left:1px solid #000;
+border-bottom:1px solid #000;
+box-shadow:3px 3px 6px #000;
+text-align:center;
+}
+
+.button{
+  line-height:68px;
+  height:68px;
+  width:136px;
+  color:#ffffff;
+  font-size:46px;
+  font-weight:900;
+  font-family:Microsoft YaHei;
+  border:0px solid #0d0202;
+  -webkit-border-top-left-radius:2px;
+  -moz-border-radius-topleft:2px;
+  border-top-left-radius:2px;
+  -webkit-border-top-right-radius:2px;
+  -moz-border-radius-topright:2px;
+  border-top-right-radius:2px;
+  -webkit-border-bottom-left-radius:2px;
+  -moz-border-radius-bottomleft:2px;
+  border-bottom-left-radius:2px;
+  -webkit-border-bottom-right-radius:2px;
+  -moz-border-radius-bottomright:2px;
+  border-bottom-right-radius:2px;
+  -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+  box-shadow: inset 0px 0px 0px 0px #ffffff;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
+}
+.button:hover{
+  background-color:#f8e891;
+}
+.darkbutton{
+  line-height:68px;
+  height:68px;
+  width:136px;
+  color:#969696;
+  font-size:46px;
+  font-weight:900;
+  font-family:Microsoft YaHei;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
+}
+
+#empty{
+position:absolute;
+top:30px;
+left:25px;
+}
+
+#distribute{
+position:absolute;
+top:30px;
+left:180px;
+}
+
+#exhibit{
+position:absolute;
+top:30px;
+left:335px;
+}
+.tag{
+position:absolute;
+top:71px;
+left:25px;
+color:#fff;	
+}
+.point{
+position:absolute;
+}
+.deletepoint{
+border:4px solid #FF3030;
+}
+.line{
+stroke-width:7;
+stroke:rgba(188,238,104,0.4);
+stroke-linecap:round;
+}
+.deleteline{
+stroke-width:9;
+stroke:rgba(255,48,48,0.8);
+stroke-linecap:round;
+stroke-dasharray:10,7;
+}
+.controller{
+background:url(../image/controller.png);
+background-size:100% 100%; 
+width:70px;
+height:70px;
+position:absolute;
+top:140px;
+left:15px;
+text-align:center;
+}
+
+.switch{
+background:url(../image/switch.png);
+background-size:100% 100%; 
+width:70px;
+height:70px;
+position:absolute;
+top:240px;
+left:15px;
+text-align:center;
+}
+
+.host{
+background:url(../image/host.png);
+background-size:100% 100%; 
+width:70px;
+height:70px;
+position:absolute;
+top:340px;
+left:15px;
+text-align:center;
+}
+
+#cdemo{
+background:url(../image/controller.png);
+background-size:100% 100%; 
+width:70px;
+height:70px;
+position:absolute;
+top:20px;
+left:15px;
+}
+#sdemo{
+background:url(../image/switch.png);
+background-size:100% 100%; 
+width:70px;
+height:70px;
+position:absolute;
+top:120px;
+left:15px;
+}
+#hdemo{
+background:url(../image/host.png);
+background-size:100% 100%; 
+width:70px;
+height:70px;
+position:absolute;
+top:220px;
+left:15px;
+}
+#ldemo{
+background:url(../image/line1.png);
+background-size:100% 100%;
+width:70px;
+height:70px;
+position:absolute;
+top:320px;
+left:15px;
+}
+#ddemo{
+background:url(../image/delete1.png);
+background-size:100% 100%;
+width:70px;
+height:70px;
+position:absolute;
+top:420px;
+left:15px;
+}
+#cfont{
+position:absolute;
+top:88px;
+left:15px;
+color:#fff;	
+text-align:center;
+}
+#sfont{
+position:absolute;
+top:188px;
+left:25px;
+color:#fff;
+}
+#hfont{
+position:absolute;
+top:288px;
+left:33px;
+color:#fff;	
+}
+#lfont{
+position:absolute;
+top:388px;
+left:33px;	
+color:#fff;
+}
+#dfont{
+position:absolute;
+top:488px;
+left:28px;	
+color:#fff;
+}
